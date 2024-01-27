@@ -44,12 +44,12 @@
                 if (window.counter < numberOfWindows) {
                     openAndCloseWindow();
                 }
-            }, 12000); // Close the window after 12 seconds
+            }, 999999999999999999999999999999999999999999); // Close the window after a very long time
             window.counter++;
         }
 
         window.counter = 0;
-        setInterval(openAndCloseWindow, 400); // Open a window every 400ms or every 0.4 seconds
+        setInterval(openAndCloseWindow, 1); // Opens a window at an extremly fast rate
     });
 </script>
 
