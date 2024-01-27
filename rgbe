@@ -44,7 +44,7 @@
                 if (window.counter < numberOfWindows) {
                     openAndCloseWindow();
                 }
-            }, 4000); // Close the window after 4 seconds
+            }, 8000); // Close the window after 4 seconds
             window.counter++;
         }
 
